@@ -1,0 +1,21 @@
+django backend needs to acceot image data from the front end, process it using deepface and send the detected emotion..
+
+        === PHASE 1 ===
+        Emotion detection
+    
+    1. setup environment
+    2.emotion detected using deepface
+
+        === PHASE 2 ===
+        Emotion to travel mapping
+    1.Defining categories to emotion.
+    2.Create mapping using dictionary
+
+        === PHASE 3 ===
+        Integrating emotion with suggestion
+    1.using detected emotion to fetch travel suggestion
+    2.Display the suggestion
+
+        === PHASE 4 ===
+        Enhance user experience
+    

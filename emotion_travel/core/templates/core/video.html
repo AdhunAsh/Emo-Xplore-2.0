@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webcam Capture</title>
+</head>
+<body>
+    <h1>Webcam Capture</h1>
+    <!-- Video element to display webcam -->
+    <video id="webcam" autoplay width="640" height="480"></video>
+    <br>
+
+    <!-- Button to capture image -->
+    <button id="captureBtn">Capture Image</button>
+
+    <!-- Canvas to display captured image -->
+    <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+
+    <!-- Form to send captured image to the server -->
+    <form id="imageForm" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="hidden" name="imageData" id="imageData">
+        <button type="submit">Submit Image</button>
+    </form>
+
+    <script>
+        // Start webcam streaming
+        function startWebcam() {
+            const videoElement = document.getElementById("webcam");
+
+            if (!videoElement) {
+                console.error("Video element not found!");
+                return;
+            }
+
+            navigator.mediaDevices
+                .getUserMedia({ video: true })
+                .then((stream) => {
+                    videoElement.srcObject = stream;
+                })
+                .catch((err) => {
+                    console.error("Webcam access denied!", err);
+                });
+        }
+
+        startWebcam();
+
+        // Capture image and display it on canvas
+        document.getElementById("captureBtn").addEventListener("click", function () {
+            const video = document.getElementById("webcam");
+            const canvas = document.getElementById("canvas");
+            const context = canvas.getContext("2d");
+
+            // Draw the video frame to canvas
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            // Convert canvas to base64 image data
+            const imageData = canvas.toDataURL("image/png");
+
+            // Set the hidden input value
+            document.getElementById("imageData").value = imageData;
+
+            // Display the canvas for preview
+            canvas.style.display = "block";
+        });
+    </script>
+</body>
+</html>

@@ -1,3 +1,291 @@
+body {
+    background-color: rgba(251, 244, 241, 1);
+    padding-left: 60px;
+    padding-top: 10px;
+}
+header {
+    background-color: rgb(0, 0, 0, 0.1);
+    font-family: "poppins";
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other elements */
+    display: flex;
+    flex-direction: row;
+}
+
+.company-name {
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.logo {
+    display: flex;
+    flex: 2;
+    padding-left: 60px;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+nav ul {
+    list-style-type: none; /* Remove the default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none; /* Remove the default bullet points */
+    margin-right: 20px; /* Add space between navigation items */
+}
+
+nav ul li:last-child {
+    list-style-type: none; /* Remove the default bullet points */
+    margin-right: 0; /* Remove margin for the last navigation item */
+}
+
+nav ul li a {
+    color: rgba(70, 72, 112, 1);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d9bf15; /* Lighter text color on hover */
+}
+
+.head {
+    margin-top: 50px;
+    background-color: rgba(251, 224, 231, 1);
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    font-family: "Poppins";
+    color: rgba(191, 133, 122, 1);
+}
+
+.head img {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.main_h1 {
+    margin-top: 10px;
+    font-family: "poppins";
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(70, 72, 112, 1);
+}
+
+.sub {
+    font-family: "poppins";
+    font-size: 20px;
+}
+
+#web-button {
+    margin-top: 20px;
+    background-color: rgba(251, 224, 231, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+
+#web-button span {
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(70, 72, 112, 1);
+}
+
+#web-button img {
+    height: 17px;
+    margin-right: 5px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Individual card styling */
+.card {
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon wrapper styling */
+.icon-wrapper {
+    width: 90px;
+    height: 90px;
+    background-color: #eae6f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.loading {
+    width: 50px;
+    height: 50px;
+}
+
+/* Card title */
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Card subtitle */
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact {
+    /* background-color: #ffffff; Dark background color */
+    color: rgba(70, 72, 112, 1); /* Text color */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #f4fae6; /* Dark background color */
+    color: #1e1e1e; /* Text color */
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 180px; /* Add margin to push the intro section down */
+}
+
+.content {  
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-content {
+    flex: 1; /* Take up remaining space */
+    text-align: left;
+    max-width: 600px; /* Adjust as needed */
+    margin-right: 50px; /* Add space between content and image */
+    font-family: "poppins";
+}
+
+
+.intro-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.intro-image {
+    flex: 1; /* Take up remaining space */ ;
+    
+}
+
+.intro-image img {
+    width: 100%; /* Ensure image fills container */
+    max-width: 100%; /* Ensure image does not exceed its original size */
+    display: block; /* Remove extra space below image */
+}
+
 .container {
-    border-color: red;
+    margin-top: 30px;
+    max-width: 1200px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgba(228, 240, 255, 1);
+    padding: 20px;
+    padding-right: 300px;
+    font-family: "poppins";
+}
+
+#hello {
+    margin-left: 20px;
+}
+
+#form {
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.con-img {
+    display: flex;
+    flex: 3;
+    height: 500px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    background-color: rgb(242, 207, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(27, 27, 30);
+}
+
+footer {
+    background-color:#fbf4f1;
+}
+
+#foot {
+    color: black;
+    text-align: center;
 }

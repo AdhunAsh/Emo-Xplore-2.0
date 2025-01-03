@@ -1,60 +1,60 @@
 //for better performance in front page , no important scripts
 
 // Smooth scrolling function
-document.querySelectorAll('a[href^="#intro"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-    e.preventDefault();
+document.querySelectorAll('a[href^="#intro"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
 
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start', // Scroll to the start of the target element
-        inline: 'start' // Scroll to the start of the target element
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "start", // Scroll to the start of the target element
+            inline: "start", // Scroll to the start of the target element
+        });
     });
 });
-});
 
-document.querySelectorAll('a[href^="#about"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+document.querySelectorAll('a[href^="#about"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
 
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth',
-          block: 'start', // Scroll to the start of the target element
-          inline: 'start' // Scroll to the start of the target element
-      });
-  });
-});
-
-document.querySelectorAll('a[href^="#contact"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start', // Scroll to the start of the target element
-        inline: 'start' // Scroll to the start of the target element
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "start", // Scroll to the start of the target element
+            inline: "start", // Scroll to the start of the target element
+        });
     });
 });
-});
 
-document.querySelectorAll('a[href^="#home"]').forEach(anchor => {
-anchor.addEventListener('click', function (e) {
-    e.preventDefault();
+document.querySelectorAll('a[href^="#contact"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
 
-    document.querySelector('body').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start', // Scroll to the start of the target element
-        inline: 'start' // Scroll to the start of the target element
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "start", // Scroll to the start of the target element
+            inline: "start", // Scroll to the start of the target element
+        });
     });
 });
+
+document.querySelectorAll('a[href^="#home"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        document.querySelector("body").scrollIntoView({
+            behavior: "smooth",
+            block: "start", // Scroll to the start of the target element
+            inline: "start", // Scroll to the start of the target element
+        });
+    });
 });
 
 //**********************************************//
 
-
+// Start webcam streaming
 function startWebcam() {
     const videoElement = document.getElementById("webcam");
-    // Check if the video element exists
+
     if (!videoElement) {
         console.error("Video element not found!");
         return;
@@ -63,9 +63,30 @@ function startWebcam() {
     navigator.mediaDevices
         .getUserMedia({ video: true })
         .then((stream) => {
-            videoElement.srcObject = stream; // Attach stream to video element
+            videoElement.srcObject = stream;
         })
         .catch((err) => {
             console.error("Webcam access denied!", err);
         });
 }
+
+startWebcam();
+
+// Capture image and display it on canvas
+document.getElementById("captureBtn").addEventListener("click", function () {
+    const video = document.getElementById("webcam");
+    const canvas = document.getElementById("canvas");
+    const context = canvas.getContext("2d");
+
+    // Draw the video frame to canvas
+    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+    // Convert canvas to base64 image data
+    const imageData = canvas.toDataURL("image/png");
+
+    // Set the hidden input value
+    document.getElementById("imageData").value = imageData;
+
+    // Display the canvas for preview
+    canvas.style.display = "block";
+});

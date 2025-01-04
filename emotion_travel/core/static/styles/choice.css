@@ -103,9 +103,10 @@ nav ul li a:hover {
 .sub {
     font-family: "poppins";
     font-size: 20px;
+    color: #822c2c;
 }
 
-#web-button {
+.web-button {
     margin-top: 20px;
     background-color: rgba(251, 224, 231, 1);
     display: flex;
@@ -117,14 +118,14 @@ nav ul li a:hover {
     border-radius: 15px;
 }
 
-#web-button span {
+.web-button span {
     font-family: "poppins";
     font-size: 16px;
     font-weight: 600;
     color: rgba(70, 72, 112, 1);
 }
 
-#web-button img {
+.web-button img {
     height: 17px;
     margin-right: 5px;
 }

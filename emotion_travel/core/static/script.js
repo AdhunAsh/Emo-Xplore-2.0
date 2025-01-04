@@ -70,23 +70,30 @@ function startWebcam() {
         });
 }
 
-startWebcam();
+document.getElementById("start-webcam-button").addEventListener("click", () => {
+    document.getElementById("cam-div").style = "display : block;";
+    document.getElementById("normal-div").style = "display : none;";
+    document.getElementById("start-webcam-button").style = "display : none ;";
+    document.getElementById("capture-webcam-button").style =
+        "display : block ;";
+
+    startWebcam();
+});
 
 // Capture image and display it on canvas
-document.getElementById("captureBtn").addEventListener("click", function () {
-    const video = document.getElementById("webcam");
-    const canvas = document.getElementById("canvas");
-    const context = canvas.getContext("2d");
+document
+    .getElementById("capture-webcam-button")
+    .addEventListener("click", function () {
+        const video = document.getElementById("webcam");
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
 
-    // Draw the video frame to canvas
-    context.drawImage(video, 0, 0, canvas.width, canvas.height);
+        // Draw the video frame to canvas
+        context.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-    // Convert canvas to base64 image data
-    const imageData = canvas.toDataURL("image/png");
+        // Convert canvas to base64 image data
+        const imageData = canvas.toDataURL("image/png");
 
-    // Set the hidden input value
-    document.getElementById("imageData").value = imageData;
-
-    // Display the canvas for preview
-    canvas.style.display = "block";
-});
+        // Set the hidden input value
+        document.getElementById("imageData").value = imageData;
+    });

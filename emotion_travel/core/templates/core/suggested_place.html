@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,14 +14,14 @@
         <link
             rel="stylesheet"
             type="text/css"
-            href="/emotion_travel/core/static/styles/choice.css"
+            href="{% static 'styles/choice.css' %}"
         />
     </head>
     <body>
         <header>
             <div class="logo">
                 <img
-                    src="/emotion_travel/core/static/image/home/EMO-XPLORE.png"
+                    src="{% static 'image/home/EMO-XPLORE.png' %}"
                     alt="My Image"
                 />
                 <span class="company-name">Emo-Xplore</span>
@@ -39,7 +40,7 @@
             <div style="flex: 1">
                 <div class="head">
                     <img
-                        src="/emotion_travel/core/static/image/choose_page/plane_logo.png"
+                        src="{% static '/image/choose_page/plane_logo.png' %}"
                         alt="my logo"
                     />
                     <p class="text">Let's go around the world</p>
@@ -48,36 +49,73 @@
                 <div class="main_heading">
                     <p class="main_h1">
                         Our model suggests <br />
-                        you're in :<br /><span style="font-size: 60px"
-                            >Detecting...</span
-                        >
+                        you're in :<br /><span style="font-size: 60px">
+                            {% if emotion %} {{ emotion }} {% else %}
+                            Detecting... {% endif %}
+                        </span>
                     </p>
                 </div>
                 <div>
                     <p class="sub">
+                        {% if data %} {{ data.intro_message }} {% else %}
                         Celebrate your joy with the vibrant travel options in
-                        Kerala!
+                        Kerala! {% endif %}
                     </p>
                 </div>
             </div>
 
             <div style="flex: 1; padding-left: 150px; margin-top: 50px">
-                <img
-                    src="/emotion_travel/core/static/image/choose_page/in_2.png"
-                    alt="my image"
-                    height="400px"
-                />
+                <div id="normal-div">
+                    <img
+                        src="{% static 'image/choose_page/in_2.png' %}"
+                        alt="my image"
+                        height="400px"
+                    />
+                </div>
+                <div id="cam-div" style="display: none">
+                    <!-- Video element to display webcam -->
+                    <video
+                        id="webcam"
+                        autoplay
+                        width="640"
+                        height="480"
+                    ></video>
+
+                    <!-- Canvas to display captured image -->
+                    <canvas
+                        id="canvas"
+                        width="640"
+                        height="480"
+                        style="display: none"
+                    ></canvas>
+                </div>
             </div>
         </div>
         <div>
-            <button id="web-button">
-                <img
-                    src="/emotion_travel/core/static/image/choose_page/camera-solid.svg"
-                    alt="Camera Icon"
-                    class="icon"
-                />
-                <span class="text">Start Webcam</span>
-            </button>
+            <div id="start-webcam-button" style="display: block">
+                <button class="web-button">
+                    <img
+                        src="{% static 'image/choose_page/camera-solid.svg' %}"
+                        alt="Camera Icon"
+                        class="icon"
+                    />
+                    <span class="text">Start webcam</span>
+                </button>
+            </div>
+            <div id="capture-webcam-button" style="display: none">
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <input type="hidden" name="imageData" id="imageData" />
+                    <button class="web-button">
+                        <img
+                            src="{% static 'image/choose_page/camera-solid.svg' %}"
+                            alt="Camera Icon"
+                            class="icon"
+                        />
+                        <span class="text">Capture Image</span>
+                    </button>
+                </form>
+            </div>
         </div>
 
         <div class="card-container">
@@ -85,10 +123,10 @@
             <div class="card" style="background-color: #eae6f8">
                 <div class="icon-wrapper">
                     <img
-                        src="/emotion_travel/core/static/image/home/loading1.gif"
+                        src="{% static 'image/home/loading1.gif' %}"
                         alt="load"
                         class="loading"
-                        />
+                    />
                 </div>
                 <h3>Loading...</h3>
             </div>
@@ -96,10 +134,10 @@
             <div class="card" style="background-color: #eae6f8">
                 <div class="icon-wrapper">
                     <img
-                        src="/emotion_travel/core/static/image/home/loading1.gif"
+                        src="{%static 'image/home/loading1.gif' %}"
                         alt="load"
                         class="loading"
-                        />
+                    />
                 </div>
                 <h3>Loading...</h3>
             </div>
@@ -107,10 +145,10 @@
             <div class="card" style="background-color: #eae6f8">
                 <div class="icon-wrapper">
                     <img
-                        src="/emotion_travel/core/static/image/home/loading1.gif"
+                        src="{% static 'image/home/loading1.gif' %}"
                         alt="load"
                         class="loading"
-                        />
+                    />
                 </div>
                 <h3>Loading...</h3>
             </div>
@@ -118,10 +156,10 @@
             <div class="card" style="background-color: #eae6f8">
                 <div class="icon-wrapper">
                     <img
-                        src="/emotion_travel/core/static/image/home/loading1.gif"
+                        src="{% static 'image/home/loading1.gif' %}"
                         alt="load"
                         class="loading"
-                        />
+                    />
                 </div>
                 <h3>Loading...</h3>
             </div>
@@ -129,10 +167,10 @@
             <div class="card" style="background-color: #eae6f8">
                 <div class="icon-wrapper">
                     <img
-                        src="/emotion_travel/core/static/image/home/loading1.gif"
+                        src="{% static 'image/home/loading1.gif' %}"
                         alt="load"
                         class="loading"
-                        />
+                    />
                 </div>
                 <h3>Loading...</h3>
             </div>
@@ -149,7 +187,7 @@
                 </div>
                 <div class="intro-image">
                     <img
-                        src="/emotion_travel/core/static/image/choose_page/intro-kerala.jpg"
+                        src="{% static 'image/choose_page/intro-kerala.jpg' %}"
                         alt="Intro Image"
                     />
                 </div>
@@ -194,7 +232,7 @@
                                     id="subject"
                                     name="subject"
                                     placeholder="Write something..."
-                                    style="height: 200px ; width: 300px"
+                                    style="height: 200px; width: 300px"
                                 ></textarea>
                             </td>
                         </tr>
@@ -204,15 +242,15 @@
             </form>
             <div class="con-img">
                 <img
-                    src="/emotion_travel/core/static/image//choose_page/rb_2148887720.png"
+                    src="{% static 'image//choose_page/rb_2148887720.png' %}"
                     alt="image"
                 />
             </div>
         </div>
 
         <footer>
-            <p id='foot'>© 2024 Emotion Travel</p>
+            <p id="foot">© 2024 Emotion Travel</p>
         </footer>
     </body>
-    <script src="/emotion_travel/core/static/script.js"></script>
+    <script src="{% static 'script.js' %}"></script>
 </html>

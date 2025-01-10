@@ -16,7 +16,7 @@ body {
     top: 10px;
 }
 
-#captureButton {
+#captureButton { 
     background-color: #00cbfe; /* Button background color */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;

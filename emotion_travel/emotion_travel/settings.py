@@ -132,3 +132,4 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SLS = False
 EMAIL_HOST_USER = 'adhunash@gmail.com'
 EMAIL_HOST_PASSWORD = 'rkpe gatx grwt gsmp'
+

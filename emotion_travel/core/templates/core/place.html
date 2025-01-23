@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>place</title>
+        <link
+            rel="stylesheet"
+            href="{% static 'styles/place.css' %}"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <button class="back-btn">⬅</button>
+                <img
+                    src="{% static 'image/home/EMO-XPLORE.png' %}"
+                    alt="My Image"
+                />
+                <span class="company-name">Emo-Xplore</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#attraction">Attractions</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div style="padding: 0 200px 0 80px">
+            <div style="display: flex; flex-direction: row">
+                {{for data in datas}}
+                <div style="flex: 1">
+                    <div class="carousel">
+                        <div class="carousel-images">
+                            <img
+                                src="{% static 'image/place/kozhi/download (1).jpg' %}"
+                                alt="Kozhikode Beach View 1"
+                            />
+                            <img
+                                src="{% static 'image/place/kozhi/download.jpg' %}"
+                                alt="Kozhikode Beach View 2"
+                            />
+                            <img
+                                src="{% static 'image/place/kozhi/kozhikode-beach.jpg' %}"
+                                alt="Kozhikode Beach View 3"
+                            />
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+                <div style="flex: 1; padding-left: 30px">
+                    <div class="head">
+                        <h1>Kozhikode beach</h1>
+                    </div>
+                    <div class="info-section">
+                        <p>Weather : 25 - 29°C</p>
+                        <p>Timing : Nil</p>
+                        <p>Entry fee : No Entry Fee</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="overview">
+                <h2>Overview</h2>
+                <p>
+                    The beach is renowned for its tranquil charm, with
+                    breathtaking sunset views that paint the sky in vivid shades
+                    of orange and pink. Gentle waves and a refreshing sea breeze
+                    create a peaceful ambiance, making it a favorite spot for
+                    leisurely walks, picnics, and unwinding from the city's
+                    bustle.
+                </p>
+            </div>
+        </div>
+
+
+
+        <script>
+            document
+                .querySelector(".back-btn")
+                .addEventListener("click", () => {
+                    window.location.href = "suggest";
+                });
+
+            // JavaScript for carousel functionality
+            const carousel = document.querySelector(".carousel-images");
+            const images = document.querySelectorAll(".carousel-images img");
+            const prevButton = document.querySelector(".prev");
+            const nextButton = document.querySelector(".next");
+
+            let index = 0;
+
+            // Move to the next image
+            nextButton.addEventListener("click", () => {
+                index = (index + 1) % images.length; // Loop back to the first image
+                updateCarousel();
+            });
+
+            // Move to the previous image
+            prevButton.addEventListener("click", () => {
+                index = (index - 1 + images.length) % images.length; // Loop back to the last image
+                updateCarousel();
+            });
+
+            // Update the carousel position
+            function updateCarousel() {
+                const offset = -index * 100; // Move by 100% of the width for each image
+                carousel.style.transform = `translateX(${offset}%)`;
+            }
+        </script>
+    </body>
+</html>

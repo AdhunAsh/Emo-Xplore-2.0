@@ -521,24 +521,51 @@
                 "image": "https://www.tyndistravel.com/uploads/blog/image/top-15-most-visited-kerala-tourist-places-kerala-tourism.jpg",
                 "options": [
                     {
-                        "name": "Fort Kochi",
-                        "description": "Historical sites, Dutch architecture, and the famous Chinese fishing nets.",
-                        "image": "images/fort_kochi.jpg"
+                        "name": "kozhikode beach",
+                        "description": "A Popular destination for relaxation and sunset views.The beach has a historical significance with its association with the spice trade.",
+                        "Attraction" : "lighthouse, Swimming, Beach activities, Street food",
+                        "image": [
+                            "https://www.worldbeachguide.com/photos/kozhikode-beach.jpg",
+                            ""
+                        ],
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439",
+                        "weather" : "25 - 29°C",
+                        "Timing" : "None",
+                        "Entry fee" : "None"
                     },
                     {
-                        "name": "Alleppey Backwaters",
-                        "description": "Houseboats and scenic views.",
-                        "image": "images/alleppey_backwaters.jpg"
+                        "name": "Mananchira Square",
+                        "description": "A historic square in the heart of kozhikode city, with a large pond and surounding gardens.It is perfect for a peaceful walk or a picnic.",
+                        "Attraction" : "Garden, lake, walking paths, musical foundain",
+                        "image": "images/alleppey_backwaters.jpg",
+                        "lat" : "11.253253",
+                        "lng" : "75.781494",
+                        "weather" : "25 - 29°C",
+                        "Timing" : "None",
+                        "Entry fee" : "None"
                     },
                     {
-                        "name": "Athirappilly Falls",
-                        "description": "Kerala's most famous waterfall, offering beautiful scenery.",
-                        "image": "images/athirappilly.jpg"
+                        "name": "Kappad Beach",
+                        "description": "The beach wher Vasco Da Gama landed in 1498, making the begining of the spice trade in kerala.jIt is less crowded and perfect for a relaxing day by th sea.",
+                        "Attraction" : "Historical Significance, serene environment, boating",
+                        "image": "images/athirappilly.jpg",
+                        "lat" : "11.3807",
+                        "lng" : "75.7261",
+                        "weather" : "25 - 29°C",
+                        "Timing" : "None",
+                        "Entry fee" : "None"
                     },
                     {
-                        "name": "Varkala Cliffs",
-                        "description": "Unique cliffside views and a relaxed beach vibe.",
-                        "image": "images/varkala_cliffs.jpg"
+                        "name": "Thusharagiri Waterfalls",
+                        "description": "A beautiful waterfall located around 50km from kozhikode, offering scenic beauty and trekking opportunities.It's a popular spot for nature lovers and adventure seekers.",
+                        "Attraction" : "Trekking, nature photography, water activities",
+                        "image": "images/varkala_cliffs.jpg",
+                        "lat" : "11.472567",
+                        "lng" : "76.053725",
+                        "weather" : "25 - 29°C",
+                        "Timing" : "None",
+                        "Entry fee" : "None"
                     }
                 ]
             },

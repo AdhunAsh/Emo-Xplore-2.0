@@ -1,46 +1,40 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-            rel="stylesheet"
-            href="/emotion_travel/core/static/styles/style.css"
-        />
-    </head>
-    <body>
-        <p>hello</p>
-        <div>
-            <div id="map"></div>
-        </div>
+<html>
+<head>
+    <title>Leaflet Satellite View</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 100vh; /* Full height */
+            width: 100%; /* Full width */
+        }
+    </style>
+</head>
+<body>
+    <h1>Satellite View Map</h1>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([11.2588, 75.7804], 10); // Centered on Kozhikode
+        
+        // Add Esri World Imagery (Satellite tiles)
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+        }).addTo(map);
 
-        <!--Add a script by google -->
-        <script
-            src="https://maps.googleapis.com/maps/api/js?key=<AIzaSyAtLf27Iq6JjspjtjGrqDIYVcKxvSaC6Js>&callback=initMap&libraries=&v=weekly"
-            async
-        ></script>
+        console.log('{{ places|safe }}');
+        //place data from the server
+        var places = JSON.parse('{{ places|safe }}');
 
-        <script>
+        //add markers
+        places.forEach(function(place){
+            L.marker([place.lat , place.lng])
+            .addTo(map)
+            .bindPopup(`<b>${place.name}</b><br><a href = "${place.link}">More Details</a>`)
+        });
 
-            // Initialize and add the map
-            function initMap() {
-    
-                // The location of Geeksforgeeks office
-                const gfg_office = {
-                    lat: 28.50231,
-                    lng: 77.40548
-                };
-    
-                // Create the map, centered at gfg_office
-                const map = new google.maps.Map(
-                        document.getElementById("map"), {
-    
-                    // Set the zoom of the map
-                    zoom: 17.56,
-                    center: gfg_office,
-                });
-            }
-        </script>
-    </body>
+    </script>
+</body>
 </html>

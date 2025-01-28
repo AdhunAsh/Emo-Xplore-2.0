@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Travel Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #87CEEB, #f5deb3);
+            font-family: Arial, sans-serif;
+        }
+        .sun {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            border-radius: 50%;
+            box-shadow: 0 0 50px rgba(255, 255, 0, 0.8);
+            animation: moveSun 10s infinite linear;
+        }
+
+        .bird {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            background: black;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation: flyBirds 5s infinite linear;
+        }
+
+        .aeroplane {
+            position: absolute;
+            top: 150px;
+            left: -200px;
+            width: 60px;
+            height: 20px;
+            background: silver;
+            border-radius: 5px;
+            animation: flyPlane 15s infinite linear;
+        }
+
+        .animal {
+            position: absolute;
+            bottom: 20px;
+            left: 50px;
+            width: 50px;
+            height: 50px;
+            background: brown;
+            border-radius: 50%;
+            animation: moveAnimal 8s infinite alternate;
+        }
+
+        .architecture {
+            position: absolute;
+            bottom: 10px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+
+        .pyramid {
+            left: 200px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg');
+        }
+
+        .tajmahal {
+            right: 200px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg');
+        }
+
+        @keyframes moveSun {
+            0% { left: 100px; }
+            50% { left: 80%; }
+            100% { left: 100px; }
+        }
+
+        @keyframes flyBirds {
+            0% { top: 150px; left: 100px; }
+            100% { top: 100px; left: 100%; }
+        }
+
+        @keyframes flyPlane {
+            0% { left: -200px; }
+            100% { left: 100%; }
+        }
+
+        @keyframes moveAnimal {
+            0% { left: 50px; }
+            100% { left: 300px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="sun"></div>
+
+    <div class="bird" style="top: 120px; left: 150px;"></div>
+    <div class="bird" style="top: 140px; left: 200px;"></div>
+    <div class="bird" style="top: 160px; left: 250px;"></div>
+
+    <div class="aeroplane"></div>
+
+    <div class="animal"></div>
+
+    <div class="architecture pyramid"></div>
+    <div class="architecture tajmahal"></div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-{
+ {
     "calm_relaxed": {
         "intro_message": "You seem to be in a relaxed mood. Here are some peaceful travel ideas across Kerala to help you unwind. Choose a category below to find a spot that suits your vibe.",
         "categories": [
@@ -9,22 +9,46 @@
                     {
                         "name": "Kumarakom",
                         "description": "Peaceful backwaters, famous for birdwatching and houseboat cruises.",
-                        "image": "images/kumarakom.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Alleppey",
                         "description": "Known for its backwater canals and houseboat experiences; ideal for tranquil boat rides.",
-                        "image": "images/alleppey.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Vazhachal",
                         "description": "Serene waterfalls surrounded by dense greenery, perfect for unwinding.",
-                        "image": "images/vazhachal.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Pathiramanal Island",
                         "description": "Accessible by boat from Alleppey; a small, lush island sanctuary known for its quiet atmosphere.",
-                        "image": "images/pathiramanal_island.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -35,22 +59,46 @@
                     {
                         "name": "Marari Beach",
                         "description": "A quiet beach with minimal crowds, ideal for relaxation.",
-                        "image": "images/marari_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Varkala Beach",
                         "description": "Known for its stunning cliffs and calm beach vibes, popular for yoga and meditation.",
-                        "image": "images/varkala_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Bekal Beach",
                         "description": "Near Bekal Fort, this beach is scenic and perfect for a slow-paced day.",
-                        "image": "images/bekal_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kappad Beach",
                         "description": "Known for being where Vasco da Gama landed; it has a calm atmosphere.",
-                        "image": "images/kappad_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -61,22 +109,46 @@
                     {
                         "name": "Munnar",
                         "description": "Rolling tea plantations, tranquil viewpoints, and calm settings perfect for long walks.",
-                        "image": "images/munnar.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Wayanad",
                         "description": "Dense forests, peaceful waterfalls, and serene viewpoints.",
-                        "image": "images/wayanad.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Nelliampathy",
                         "description": "Known as 'Poor Man's Ooty,' offers beautiful landscapes and a peaceful vibe.",
-                        "image": "images/nelliampathy.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Vagamon",
                         "description": "Known for its misty hills, pine forests, and easygoing trekking routes.",
-                        "image": "images/vagamon.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -87,22 +159,46 @@
                     {
                         "name": "Thattekad Bird Sanctuary",
                         "description": "Ideal for bird enthusiasts, with a wide variety of species to observe.",
-                        "image": "images/thattekad_bird_sanctuary.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Silent Valley National Park",
                         "description": "Offers a quiet and untouched forest atmosphere, ideal for peaceful nature watching.",
-                        "image": "images/silent_valley.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Periyar Wildlife Sanctuary",
                         "description": "Known for its serene lake where you can take a calm boat ride and observe elephants, birds, and other wildlife.",
-                        "image": "images/periyar_wildlife_sanctuary.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kumarakom Bird Sanctuary",
                         "description": "On the Vembanad Lake; home to migratory birds and perfect for a relaxing bird-watching experience.",
-                        "image": "images/kumarakom_bird_sanctuary.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -113,22 +209,46 @@
                     {
                         "name": "Padmanabhaswamy Temple",
                         "description": "Known for its peaceful environment and rich history.",
-                        "image": "images/padmanabhaswamy_temple.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Guruvayur Temple",
                         "description": "Serene atmosphere with cultural significance.",
-                        "image": "images/guruvayur_temple.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Fort Kochi",
-                        "description": "A mix of historic sites, colonial architecture, and peaceful streets ideal for relaxed exploration.",
-                        "image": "images/fort_kochi.jpg"
+                        "description": "A mix of historic sites, colonial architecture, and peaceful streets ideal for relaxed exploration",
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ],
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Paradesi Synagogue",
                         "description": "A quiet and beautiful site for historical reflection.",
-                        "image": "images/paradesi_synagogue.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             }
@@ -144,22 +264,46 @@
                     {
                         "name": "Chembra Peak",
                         "description": "Known for a heart-shaped lake, it's a beautiful spot with trekking trails.",
-                        "image": "images/chembra_peak.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ],
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Meesapulimala",
                         "description": "The second-highest peak in the Western Ghats, known for thrilling trails.",
-                        "image": "images/meesapulimala.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ],                        
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Agasthyakoodam",
                         "description": "Popular for its biodiversity; requires a permit but offers a challenging trek.",
-                        "image": "images/agasthyakoodam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Parunthumpara",
                         "description": "Known as 'Eagle Rock,' with scenic cliff views and easy treks.",
-                        "image": "images/parunthumpara.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -170,22 +314,46 @@
                     {
                         "name": "Athirappilly Falls",
                         "description": "Often called the 'Niagara of India,' known for breathtaking views.",
-                        "image": "images/athirappilly.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Soochipara Falls",
                         "description": "Offers trekking paths and a beautiful fall to explore.",
-                        "image": "images/soochipara_falls.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Thommankuthu Falls",
                         "description": "A seven-step waterfall near Thodupuzha, ideal for adventure-seekers.",
-                        "image": "images/thommankuthu_falls.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Meenmutty Falls",
                         "description": "Known for its beautiful hike and stunning views.",
-                        "image": "images/meenmutty_falls.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -196,22 +364,46 @@
                     {
                         "name": "Periyar Wildlife Sanctuary",
                         "description": "Known for its jungle treks and wildlife boat rides.",
-                        "image": "images/periyar.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Parambikulam Tiger Reserve",
                         "description": "Great for those looking to experience Kerala's dense forests and wildlife.",
-                        "image": "images/parambikulam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Chinnar Wildlife Sanctuary",
                         "description": "Known for its diverse flora and fauna, including elephants and the endangered Grizzled Giant Squirrel.",
-                        "image": "images/chinnar.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Wayanad Wildlife Sanctuary",
                         "description": "Spot a variety of animals in this lush sanctuary, offering both tranquility and adventure.",
-                        "image": "images/wayanad_wildlife.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -222,22 +414,38 @@
                     {
                         "name": "Vagamon Paragliding",
                         "description": "Experience the thrill of flying with breathtaking views of Vagamon's hills.",
-                        "image": "images/vagamon_paragliding.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Scuba Diving in Kovalam",
                         "description": "Explore underwater marine life with scuba diving adventures.",
-                        "image": "images/kovalam_scuba.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kayaking in Alleppey",
                         "description": "Paddle through serene backwaters and enjoy the thrill of kayaking.",
-                        "image": "images/alleppey_kayaking.jpg"
+                        "image": "images/alleppey_kayaking.jpg",
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Rock Climbing in Thenmala",
                         "description": "Challenge yourself with thrilling rock-climbing experiences.",
-                        "image": "images/thenmala_rock_climbing.jpg"
+                        "image": "images/thenmala_rock_climbing.jpg",
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             }
@@ -253,22 +461,42 @@
                     {
                         "name": "Kathakali Performances in Kochi",
                         "description": "Witness the vibrant and traditional dance-drama of Kerala.",
-                        "image": "images/kathakali.jpg"
+                        "image": "images/kathakali.jpg",
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Snake Boat Races in Alappuzha",
                         "description": "Experience the energy of traditional boat races during Onam season.",
-                        "image": "images/snake_boat_race.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Thrissur Pooram Festival",
                         "description": "Join one of Kerala's grandest festivals with vibrant colors and processions.",
-                        "image": "images/thrissur_pooram.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kalari Martial Arts in Thekkady",
                         "description": "Enjoy an exciting display of Kerala's traditional martial arts.",
-                        "image": "images/kalari.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
@@ -279,100 +507,196 @@
                     {
                         "name": "Wonderla Amusement Park",
                         "description": "A fun-filled destination for families with rides and water attractions.",
-                        "image": "images/wonderla.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kochi's Marine Drive",
                         "description": "Perfect for a relaxed evening stroll with scenic waterfront views.",
-                        "image": "images/marine_drive.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kerala Science and Technology Museum",
                         "description": "A great educational experience for kids and families.",
-                        "image": "images/kerala_science_museum.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Napier Museum",
                         "description": "Explore Kerala's art and history in this family-friendly museum.",
-                        "image": "images/napier_museum.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Beach Escapes",
-                "image": "image.png",
+                "image": "images/beach.png",
                 "options": [
                     {
                         "name": "Kovalam Beach",
                         "description": "Known for its golden sand, vibrant sunsets, and relaxed vibe.",
-                        "image": "images/kovalam_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Varkala Cliff Beach",
                         "description": "A unique cliff-side beach with shops and cafes overlooking the sea.",
-                        "image": "images/varkala.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Bekal Beach",
                         "description": "Famous for the Bekal Fort and its tranquil environment.",
-                        "image": "images/bekal_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Marari Beach",
                         "description": "A pristine beach perfect for unwinding and soaking up the sun.",
-                        "image": "images/marari_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Shopping and Markets",
-                "image": "image.png",
+                "image": "images/shopping.png",
                 "options": [
                     {
                         "name": "Jew Town in Kochi",
                         "description": "Discover antiques, spices, and unique souvenirs in a historic setting.",
-                        "image": "images/jew_town.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Broadway Market in Ernakulam",
                         "description": "A bustling market with a mix of traditional and modern shopping options.",
-                        "image": "images/broadway_market.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Lulu Mall in Kochi",
                         "description": "One of India's largest malls with shopping, dining, and entertainment.",
-                        "image": "images/lulu_mall.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Trivandrum Chalai Bazaar",
                         "description": "Explore this vibrant market for spices, textiles, and fresh produce.",
-                        "image": "images/chalai_bazaar.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Festivals and Celebrations",
-                "image": "image.png",
+                "image": "images/festival.png",
                 "options": [
                     {
                         "name": "Onam Celebrations",
                         "description": "Experience the spirit of Kerala's harvest festival with floral carpets and feasts.",
-                        "image": "images/onam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Vishu Festival",
                         "description": "Enjoy the traditional New Year festival marked by lights and traditional meals.",
-                        "image": "images/vishu.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Theyyam Performances in Kannur",
                         "description": "A vibrant ritualistic art form celebrated in temples.",
-                        "image": "images/theyyam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Nehru Trophy Boat Race",
                         "description": "A thrilling boat race event held on the Punnamada Lake in Alappuzha.",
-                        "image": "images/nehru_boat_race.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             }
@@ -383,131 +707,251 @@
         "categories": [
             {
                 "name": "Quiet Natural Retreats",
-                "image": "image.png",
+                "image": "images/quiet_nature.png",
                 "options": [
                     {
                         "name": "Silent Valley National Park",
                         "description": "Find solace in pristine nature with quiet and untouched forests.",
-                        "image": "images/silent_valley.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Vagamon Meadows",
                         "description": "Feel rejuvenated amidst the serene greenery of Vagamon.",
-                        "image": "images/vagamon_meadows.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Poovar Island",
                         "description": "Relax with golden beaches and peaceful backwaters.",
-                        "image": "images/poovar_island.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Munroe Island",
                         "description": "Perfect for a quiet escape with scenic canal rides.",
-                        "image": "images/munroe_island.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Scenic Beaches",
-                "image": "image.png",
+                "image": "images/scenic_beach.png",
                 "options": [
                     {
                         "name": "Marari Beach",
                         "description": "Relaxed vibe with few crowds, perfect for calm reflection.",
-                        "image": "images/marari_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Payyambalam Beach",
                         "description": "A peaceful, less-crowded beach, ideal for introspection.",
-                        "image": "images/payyambalam_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Bekal Beach",
                         "description": "Known for its fort, scenic views, and serene atmosphere.",
-                        "image": "images/bekal_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kappad Beach",
                         "description": "A historically significant and tranquil beach near Kozhikode.",
-                        "image": "images/kappad_beach.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Spiritual and Uplifting Places",
-                "image": "image.png",
+                "image": "images/spiritual.png",
                 "options": [
                     {
                         "name": "Padmanabhaswamy Temple",
                         "description": "Known for its peaceful ambiance and spiritual significance.",
-                        "image": "images/padmanabhaswamy_temple.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Guruvayur Temple",
                         "description": "A serene temple offering calm and cultural richness.",
-                        "image": "images/guruvayur_temple.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "St. Francis Church",
                         "description": "A historic church offering a reflective and tranquil space.",
-                        "image": "images/st_francis_church.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Paradesi Synagogue",
                         "description": "A historic site with a calm and quiet ambiance.",
-                        "image": "images/paradesi_synagogue.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Calm Waterways",
-                "image": "image.png",
+                "image": "images/waterfall.png",
                 "options": [
                     {
                         "name": "Alleppey Backwaters",
                         "description": "Enjoy relaxing houseboat rides through tranquil backwaters.",
-                        "image": "images/alleppey_backwaters.jpg"
+                       "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Vembanad Lake",
                         "description": "India’s longest lake, perfect for peaceful boat rides.",
-                        "image": "images/vembanad_lake.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Ashtamudi Lake",
                         "description": "A serene lake known for its picturesque backwaters.",
-                        "image": "images/ashtamudi_lake.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Punnamada Lake",
                         "description": "Ideal for quiet and scenic moments, also the site of the Nehru Trophy Boat Race.",
-                        "image": "images/punnamada_lake.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Relaxing Hill Stations",
-                "image": "image.png",
+                "image": "image/hill.png",
                 "options": [
                     {
                         "name": "Munnar",
                         "description": "Rolling tea gardens and serene landscapes, perfect for a peaceful escape.",
-                        "image": "images/munnar.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Ponmudi",
                         "description": "A small hill station with scenic views and quiet hiking trails.",
-                        "image": "images/ponmudi.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Wayanad",
                         "description": "Known for its forest trails, waterfalls, and serene viewpoints.",
-                        "image": "images/wayanad.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Peerumedu",
                         "description": "A quaint hill station known for its peaceful tea plantations.",
-                        "image": "images/peerumedu.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             }
@@ -518,132 +962,201 @@
         "categories": [
             {
                 "name": "Classic Tourist Spots",
-                "image": "https://www.tyndistravel.com/uploads/blog/image/top-15-most-visited-kerala-tourist-places-kerala-tourism.jpg",
+                "image": "image/classic.jpg",
                 "options": [
                     {
                         "name": "kozhikode beach",
                         "description": "The beach is renowned for its tranquil charm, with breathtaking sunset views that paint the sky in vivid shades of orange and pink. Gentle waves and a refreshing sea breeze create a peaceful ambiance, making it a favorite spot for leisurely walks, picnics, and unwinding from the city's bustle.",
-                        "attraction" : "lighthouse, Swimming, Beach activities, Street food",
-                        "images": [
-                            "https://www.worldbeachguide.com/photos/kozhikode-beach.jpg",
-                            "https://media1.thrillophilia.com/filestore/2avtoejrqvk2f56od0c0okrujfpr_1584439345_shutterstock_1023261916.jpg?w=400&dpr=2",
-                            "https://english.mathrubhumi.com/image/contentid/policy:1.9661353:1719145505/2.jpg?$p=06b2ff5&f=16x10&w=852&q=0.8",
-                            "https://cdn2.advanceinfotech.org/kozhikode.directory/1200x675/business/631/kozhikode-south-beach01-1635837377-1636611172.webp"
-                        ],
-                        "background-img" : "https://i.pinimg.com/736x/d7/b5/76/d7b5761046d654ddd1a6bb7e6361fc56.jpg",
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
                         "lat" : "11.254187437060391",
                         "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Mananchira Square",
                         "description": "A historic square in the heart of kozhikode city, with a large pond and surounding gardens.It is perfect for a peaceful walk or a picnic.",
-                        "Attraction" : "Garden, lake, walking paths, musical foundain",
-                        "image": "images/alleppey_backwaters.jpg",
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
                         "lat" : "11.253253",
-                        "lng" : "75.781494",
-                        "weather" : "25 - 29°C",
-                        "Timing" : "None",
-                        "Entry fee" : "None"
+                        "lng" : "75.781494"
                     },
                     {
                         "name": "Kappad Beach",
                         "description": "The beach wher Vasco Da Gama landed in 1498, making the begining of the spice trade in kerala.jIt is less crowded and perfect for a relaxing day by th sea.",
-                        "Attraction" : "Historical Significance, serene environment, boating",
-                        "image": "images/athirappilly.jpg",
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
                         "lat" : "11.3807",
-                        "lng" : "75.7261",
-                        "weather" : "25 - 29°C",
-                        "Timing" : "None",
-                        "Entry fee" : "None"
+                        "lng" : "75.7261"
                     },
                     {
                         "name": "Thusharagiri Waterfalls",
                         "description": "A beautiful waterfall located around 50km from kozhikode, offering scenic beauty and trekking opportunities.It's a popular spot for nature lovers and adventure seekers.",
-                        "Attraction" : "Trekking, nature photography, water activities",
-                        "image": "images/varkala_cliffs.jpg",
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
                         "lat" : "11.472567",
-                        "lng" : "76.053725",
-                        "weather" : "25 - 29°C",
-                        "Timing" : "None",
-                        "Entry fee" : "None"
+                        "lng" : "76.053725"
                     }
                 ]
             },
             {
                 "name": "Cultural Heritage and History",
-                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
+                "image": "image/culrural.jpg",
                 "options": [
                     {
                         "name": "Thrissur",
                         "description": "Known as Kerala's cultural capital, with temples and festivals.",
-                        "image": "images/thrissur.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Paradesi Synagogue (Kochi)",
                         "description": "Historic Jewish synagogue in Jew Town.",
-                        "image": "images/paradesi_synagogue.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Bekal Fort",
                         "description": "Kerala's largest fort, set against the coast.",
-                        "image": "images/bekal_fort.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Mattancherry Palace (Kochi)",
                         "description": "An old palace with beautiful murals and history.",
-                        "image": "images/mattancherry_palace.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Scenic Nature Spots",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDn2KC5vB1i6RVINE-TdbziKoG9iOBLRoOg&s",
+                "image": "image/scenic_nature.jpg",
                 "options": [
                     {
                         "name": "Eravikulam National Park (Munnar)",
                         "description": "Known for the endangered Nilgiri Tahr and beautiful landscapes.",
-                        "image": "images/eravikulam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Neyyar Dam (Thiruvananthapuram)",
                         "description": "A scenic spot for picnics and nature walks.",
-                        "image": "images/neyyar_dam.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Malampuzha Gardens (Palakkad)",
                         "description": "Known for its gardens, boating, and cable car.",
-                        "image": "images/malampuzha.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Chembra Peak (Wayanad)",
                         "description": "Famous for its heart-shaped lake and beautiful views.",
-                        "image": "images/chembra_peak.jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             },
             {
                 "name": "Beaches and Coastal Areas",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0gJcfnPQ8K4qGCkYp9wSq9Pi9hTNz4DaPoQ&s",
+                "image": "images/beach.jpg",
                 "options": [
                     {
                         "name": "Cherai Beach (Kochi)",
                         "description": "A blend of backwaters and beach, great for relaxation.",
-                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZRMGHixA9zHPcCFZzPH8SRjmIYn8TrRw0A&s"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kappil Beach (Kasargod)",
                         "description": "A scenic, lesser-known beach with beautiful views.",
-                        "image": "https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkappil-beach-1727452048_1f9f6045505ee409c5a3.webp&w=3840&q=75"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Kovalam Beach",
                         "description": "Popular for its crescent-shaped beaches and vibrant setting.",
-                        "image": "https://www.dtpcthiruvananthapuram.com/uploads/picture_gallery/gallery_images/kovalam-1920x1080-20230510231440820551.webp"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     },
                     {
                         "name": "Alleppey Beach",
                         "description": "Known for its serene sands and nearby lighthouse.",
-                        "image": "https://s3.india.com/wp-content/uploads/2024/06/Beaches-Around-Alleppey-City-11.jpg##image/jpg"
+                        "image": [
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg",
+                            "images/chembra_peak.jpg"
+                        ], 
+                        "lat" : "11.254187437060391",
+                        "lng" : "75.77022327249439"
                     }
                 ]
             }

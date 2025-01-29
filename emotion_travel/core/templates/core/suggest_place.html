@@ -32,7 +32,7 @@
         places.forEach(function(place){
             L.marker([place.lat , place.lng])
             .addTo(map)
-            .bindPopup(`<b>${place.name}</b><br><a href = "${place.link}">More Details</a>`)
+            .bindPopup(`<img src = 'img/${place.image}' width = '259' /> <b>${place.name}</b><br><a href = "${place.link}">More Details</a>`)
         });
 
     </script>

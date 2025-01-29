@@ -86,6 +86,7 @@ def suggest(request):
                 "name" : option.get("name"), 
                 "lat" : float(lat),
                 "lng" : float(lng),
+                "img" : option.get("image"),
                 "link": f"{link}?emotion={emotion}&place={quote(option.get('name'))}" #append the query param for each place
             })
     print(f"Places: {places}")

@@ -5,8 +5,8 @@ class Place(models.Model) :
     name = models.CharField(max_length=25)
     description = models.CharField(max_length=255)
     image = models.ImageField(upload_to='images/' , default=None)
-    latitude = models.IntegerField(blank=True, null=True)
-    longitude = models.IntegerField(blank=True, null=True)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
 
 class Image(models.Model) :
     images = models.ManyToManyField(Place , related_name= 'images')

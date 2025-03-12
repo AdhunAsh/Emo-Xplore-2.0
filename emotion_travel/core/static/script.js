@@ -72,7 +72,7 @@ function startWebcam() {
 
 document.getElementById("start-webcam-button").addEventListener("click", () => {
     document.getElementById("cam-div").style = "display : block;";
-    document.getElementById("normal-div").style = "display : none;";
+    // document.getElementById("normal-div").style = "display : none;";
     document.getElementById("start-webcam-button").style = "display : none ;";
     document.getElementById("capture-webcam-button").style =
         "display : block ;";

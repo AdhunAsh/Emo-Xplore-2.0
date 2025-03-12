@@ -1,13 +1,18 @@
+
 body {
+    background-image: url("/emotion_travel/core/static/image/demo/thusharagiri\ waterfalls.jpg");
     background-color: rgba(251, 244, 241, 1);
-    padding: 60px 60px 0 60px;
+    padding-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: rgb(0, 0, 0, 0.1);
     font-family: "poppins";
+    font-weight: bold;
     padding: 0;
-    margin-top: 15px;
+    margin: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,39 +22,11 @@ header {
     flex-direction: row;
 }
 
-.back-btn {
-    color: white;
-    font-size: 30px;
-    align-items: center;
-    padding: 0;
-    width: 80px;
-    height: 40px;
-    background-color: rgba(229, 131, 106, 1);
-    border: none;
-    margin-right: 10px;
-    border-radius: 39px;
-}
-
-
-.back-btn:hover {
-    background-color: rgb(223, 113, 85); /* Change background on hover */
-    color: #f7f7f7; /* Change text color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-}
-
-.back-btn:active {
-    background-color: #222; /* Darker background on click */
-    color: #ffcc00; /* Bright text color on click */
-    transform: scale(0.95); /* Slightly shrink button on click */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Add inset shadow for pressed effect */
-}
-
-
 .company-name {
-    color: #000000;
+    color: #ffffff;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 25px;
 }
 
 .logo {
@@ -60,7 +37,7 @@ header {
 }
 
 .logo img {
-    height: 45px;
+    height: 35px;
     margin-right: 10px;
 }
 
@@ -81,7 +58,6 @@ nav ul {
 nav ul li {
     list-style-type: none; /* Remove the default bullet points */
     margin-right: 20px; /* Add space between navigation items */
-    font-size: 18px;
 }
 
 nav ul li:last-child {
@@ -90,7 +66,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-    color: rgba(70, 72, 112, 1);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s ease;
@@ -100,95 +76,244 @@ nav ul li a:hover {
     color: #d9bf15; /* Lighter text color on hover */
 }
 
-
-
-
-.head h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-} */
-
-.rating {
-    font-size: 1.2em;
-    color: #ff9800;
-}
-
-
-
-.carousel {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 350px;
-    margin: 15px 0;
-    border-radius: 15px;
-}
-
-.carousel-images {
+.container {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
-.carousel-images img {
-    width: 100%;
-    height: 356px;
-    object-fit: cover;
-    flex-shrink: 0;
-}
-
-button.prev, button.next {
-    position: absolute;
+/* for sidebar */
+.sidebar {
+    flex: 1;
+    position: fixed;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
+    width: 30px;
+    height: 300px;
+}
+
+.progress-container {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.progress-line {
+    position: absolute;
+    width: 4px;
+    height: 0%;
+    background: #007bff;
+    border-radius: 2px;
+    transition: height 0.3s ease;
+}
+
+.progress-indicator {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    left: -3px;
+    top: 0%;
+    transition: top 0.3s ease;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    margin-top: 120px;
+    align-items: center;
+    align-content: center;
+    width: 650px;
+    border-radius: 10px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    font-family: "poppins";
+    font-size: 65px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sub {
+    margin: 0;
+    font-family: "poppins";
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.explore-btn {
+    color: white;
+    background-color: rgba(36, 97, 158, 1);
+    width: fit-content;
+    border-radius: 7px;
+    padding: 15px 40px 15px 15px;
+    border: none;
+    margin-top: 50px;
+}
+
+.carousal {
+    display: flex;
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+/* card Container */
+.card-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+/* Card Styling */
+.name-img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+} 
+
+/* card */
+.card {
+    width: 200px;
+    height: 220px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 10px;
+    height: 220px;
+    width: 200px;
+}
+
+.name {
+    color: white;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+} 
+
+
+/* Navigation Buttons */
+.change-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.change-btn button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    font-size: 2rem;
-    cursor: pointer;
     padding: 10px;
+    cursor: pointer;
     border-radius: 50%;
+    font-size: 18px;
 }
 
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
-
-button.prev:hover, button.next:hover {
+.change-btn button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 
 
-.info-section {
-    /* margin: 20px 0; */
-    font-weight: 300;
-    font-size: 18px;
-    color: #171414;
-    line-height: 2.0;
-}
 
-.info-section p {
-    margin: 5px 0;
-}
 
-.info-section strong {
-    color: #000000;
-} 
 
-.overview {
-    line-height: 1.8;
-    color: #100f0f;
+
+
+
+
+
+
+/* .card {
+    width: 190px;
+    height: 220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden; */
+    /* align-items: center;
+    justify-content:flex-end; */
+    /* text-align: center; */
+    /* transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #eae6f8; */
+    /* background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; */
+/* } */
+
+/* .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+} */
+
+/* Icon wrapper styling */
+/* .icon-wrapper {
+    display: inline;
+    width: 100%;
+    height: auto;
+    object-fit: contain; */
+    /* justify-content: center;
+    align-items: center; */
+/* } */
+
+/* .loading {
+    width: 50px;
+    height: 50px;
+} */
+
+/* .name-img {
+    font-family: "Poppins";
+    color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 13px;
+} */
+
+/* .change-btn {
+    position: fixed;
+    top: 690px;
+    left: 800px;    
 }
 
-.overview h2 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-    color: #0e0d0d;
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
 }
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .prev {
+    margin-right: 3px;
+    background-color: rgba(251, 244, 241, .5);
+    color: black;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .next {
+    background-color: rgba(251, 244, 241, .5);
+    color: black;
+    border-radius: 50%;
+    border: none;
+  }  */

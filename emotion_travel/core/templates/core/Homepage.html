@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Choose</title>
+        <link rel="icon" type="image/x-icon" href="" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -43,14 +44,14 @@
                         src="{% static '/image/choose_page/plane_logo.png' %}"
                         alt="my logo"
                     />
-                    <p class="text">Let's go around the world</p>
+                    <p class="toptxt">Let's go around the world</p>
                 </div>
 
                 <div class="main_heading">
                     <p class="main_h1">
                         Our model suggests <br />
                         you're in :<br /><span
-                            style="font-size: 60px; color: rgb(14, 72, 119)"
+                            style="font-size: 60px; color: #e9e9f3"
                         >
                             {% if emotion %} {{ emotion }} {% else %}
                             Detecting... {% endif %}
@@ -67,13 +68,13 @@
             </div>
 
             <div style="flex: 1; padding-left: 150px; margin-top: 50px">
-                <div id="normal-div">
+                <!-- <div id="normal-div">
                     <img
-                        src="{% static 'image/choose_page/in_2.png' %}"
+                        src="{% static 'image/choose_page/' %}"
                         alt="my image"
                         height="400px"
                     />
-                </div>
+                </div> -->
                 <div id="cam-div" style="display: none">
                     <!-- Video element to display webcam -->
                     <video
@@ -101,7 +102,7 @@
                         alt="Camera Icon"
                         class="icon"
                     />
-                    <span class="text">Start webcam</span>
+                    <span style="color: #3b3b58">Start webcam</span>
                 </button>
             </div>
             <div id="capture-webcam-button" style="display: none">
@@ -123,7 +124,10 @@
         <div class="card-container">
             {%if data %} {% for category in data.categories %}
             <!-- Card 1 -->
-            <a href="{% url 'suggest' %}?emotion={{emotion}}" style="text-decoration: none;">
+            <a
+                href="{% url 'landing' %}?emotion={{emotion}}&category={{category.name}}"
+                style="text-decoration: none"
+            >
                 <div
                     class="card"
                     style="background-image: url({{category.image}});"

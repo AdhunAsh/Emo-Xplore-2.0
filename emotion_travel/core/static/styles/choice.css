@@ -1,5 +1,7 @@
 body {
-    background-color: rgba(251, 244, 241, 1);
+    background-image: url('../image/bg3.png');
+    background-repeat: no-repeat;
+    background-size: auto 43%; /* Set the size of the background image to cover 50% of the height */
     padding-left: 60px;
     padding-top: 10px;
 }
@@ -73,7 +75,7 @@ nav ul li a:hover {
 
 .head {
     margin-top: 50px;
-    background-color: rgba(251, 224, 231, 1);
+    background-color: #FFEDD5;
     align-content: center;
     display: flex;
     flex-direction: row;
@@ -82,7 +84,7 @@ nav ul li a:hover {
     padding: 0 10px 0 10px;
     border-radius: 10px;
     font-family: "Poppins";
-    color: rgba(191, 133, 122, 1);
+    color: #D81B60;
 }
 
 .head img {
@@ -97,18 +99,19 @@ nav ul li a:hover {
     font-family: "poppins";
     font-weight: 800;
     font-size: 40px;
-    color: rgba(70, 72, 112, 1);
+    color:rgba(70, 72, 112, 1);;
 }
 
 .sub {
     font-family: "poppins";
     font-size: 20px;
-    color: #822c2c;
+    font-weight: 500;
+    color: #ece6e6;
 }
 
 .web-button {
     margin-top: 20px;
-    background-color: rgba(251, 224, 231, 1);
+    background-color: #FFEDD5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,7 +219,7 @@ nav ul li a:hover {
     color: #1e1e1e; /* Text color */
     padding: 100px 0;
     text-align: center;
-    margin-top: 180px; /* Add margin to push the intro section down */
+    margin-top: 140px; /* Add margin to push the intro section down */
 }
 
 .content {  

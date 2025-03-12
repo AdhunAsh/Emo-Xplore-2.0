@@ -962,58 +962,37 @@
         "categories": [
             {
                 "name": "Classic Tourist Spots",
-                "image": "image/classic.jpg",
+                "image": "https://static.toiimg.com/photo/msid-58490225,width-96,height-65.cms",
                 "options": [
                     {
-                        "name": "kozhikode beach",
+                        "name": "Kozhikode Beach",
                         "description": "The beach is renowned for its tranquil charm, with breathtaking sunset views that paint the sky in vivid shades of orange and pink. Gentle waves and a refreshing sea breeze create a peaceful ambiance, making it a favorite spot for leisurely walks, picnics, and unwinding from the city's bustle.",
-                        "image" :"https://thumbs.dreamstime.com/b/kozhikode-kerala-india-june-welcome-board-beach-329641685.jpg",
-                        "images": [
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg"
-                        ], 
-                        "lat" : "11.2451",
-                        "lng" : "74.4556"
-                    },
-                    {
-                        "name": "Mananchira Square",
-                        "description": "A historic square in the heart of kozhikode city, with a large pond and surounding gardens.It is perfect for a peaceful walk or a picnic.",
-                        "image": [
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg"
-                        ], 
-                        "lat" : "11.253253",
-                        "lng" : "75.781494"
+                        "image": "https://images.unsplash.com/photo-1654673285799-272434e0ef00?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "location": "https://maps.app.goo.gl/Y1GCSfFvhprRu2Gp7"
                     },
                     {
                         "name": "Kappad Beach",
                         "description": "The beach wher Vasco Da Gama landed in 1498, making the begining of the spice trade in kerala.jIt is less crowded and perfect for a relaxing day by th sea.",
-                        "image": [
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg"
-                        ], 
-                        "lat" : "11.3807",
-                        "lng" : "75.7261"
+                        "image": "https://www.dtpckozhikode.com/uploads/picture_gallery/gallery_images/kappad-beach-park-kozhikodu-20230602163015499265.webp",
+                        "location": "https://maps.app.goo.gl/tNAbev3xyydestqU6"
+                    },
+                    {
+                        "name": "Mananchira Square",
+                        "description": "A historic square in the heart of kozhikode city, with a large pond and surounding gardens.It is perfect for a peaceful walk or a picnic.",
+                        "image": "https://www.dtpckozhikode.com/uploads/picture_gallery/gallery_images/mananchira-20230509170414337277.webp",
+                        "location": "https://maps.app.goo.gl/XTXCBcb1bCvWrppz6"
                     },
                     {
                         "name": "Thusharagiri Waterfalls",
                         "description": "A beautiful waterfall located around 50km from kozhikode, offering scenic beauty and trekking opportunities.It's a popular spot for nature lovers and adventure seekers.",
-                        "image": [
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg",
-                            "images/chembra_peak.jpg"
-                        ], 
-                        "lat" : "11.472567",
-                        "lng" : "76.053725"
+                        "image": "https://www.keralatourism.org/images/enchanting_kerala/large/thusharagiri20230608031615_1307_1.jpg",
+                        "location": "https://maps.app.goo.gl/NwqHkaSzVxSS8wrL7"
                     }
                 ]
             },
             {
                 "name": "Cultural Heritage and History",
-                "image": "image/culrural.jpg",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
                 "options": [
                     {
                         "name": "Thrissur",
@@ -1063,7 +1042,7 @@
             },
             {
                 "name": "Scenic Nature Spots",
-                "image": "image/scenic_nature.jpg",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_T1yN31rnlAUsD14XQP2Win7rbm2ecwykOw&s",
                 "options": [
                     {
                         "name": "Eravikulam National Park (Munnar)",
@@ -1113,7 +1092,7 @@
             },
             {
                 "name": "Beaches and Coastal Areas",
-                "image": "images/beach.jpg",
+                "image": "https://static.toiimg.com/thumb/48538866.cms?resizemode=75&width=1200&height=900",
                 "options": [
                     {
                         "name": "Cherai Beach (Kochi)",
@@ -1145,8 +1124,8 @@
                             "images/chembra_peak.jpg",
                             "images/chembra_peak.jpg"
                         ], 
-                        "lat" : "11.254187437060391",
-                        "lng" : "75.77022327249439"
+                        "lat" : "8.3667",
+                        "lng" : "76.9967"
                     },
                     {
                         "name": "Alleppey Beach",

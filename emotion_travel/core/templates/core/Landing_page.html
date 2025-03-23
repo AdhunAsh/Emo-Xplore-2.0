@@ -24,15 +24,15 @@
                     <img src="{{place.image}}" />
                     <div class="content">
                         <div class="main">
-                            <div class="title">{{ place.name }} </div>
-                            <div class="location">
-                                <a
-                                    href= "{{ place.loc }}"
-                                    style="text-decoration: none;"    
-                                >
-                                    <img src="{% static 'image/demo/map.png' %}" />
-                                </a>
-                            </div>
+                                <div class="title">{{ place.name }} </div>
+                                <div class="location">
+                                    <a
+                                        href= "{{ place.loc }}"
+                                        style="text-decoration: none;"    
+                                    >
+                                        <img src="{% static 'image/demo/map.png' %}" />
+                                    </a>
+                                </div>
                         </div>
                         <div class="des">{{ place.desc }}</div>
                     </div>

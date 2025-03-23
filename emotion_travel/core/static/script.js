@@ -1,7 +1,7 @@
 //for better performance in front page , no important scripts
 
 // Smooth scrolling function
-document.querySelectorAll('a[href^="#intro"]').forEach((anchor) => {
+document.querySelectorAll('a[href^="#pick"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
 
@@ -74,8 +74,7 @@ document.getElementById("start-webcam-button").addEventListener("click", () => {
     document.getElementById("cam-div").style = "display : block;";
     // document.getElementById("normal-div").style = "display : none;";
     document.getElementById("start-webcam-button").style = "display : none ;";
-    document.getElementById("capture-webcam-button").style =
-        "display : block ;";
+    document.getElementById("capture-webcam-button").style ="display : block ;";
 
     startWebcam();
 });
@@ -97,3 +96,24 @@ document
         // Set the hidden input value
         document.getElementById("imageData").value = imageData;
     });
+
+
+// contact us setup
+
+const modal = document.getElementById("modal");
+const openModalBtn = document.getElementById("openModalBtn");
+const cancelBtn = document.getElementById("cancelBtn");
+
+openModalBtn.onclick = () => {
+    modal.style.display = "block";
+};
+
+cancelBtn.onclick = () => {
+    modal.style.display = "none";
+};
+
+window.onclick = (event) => {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};

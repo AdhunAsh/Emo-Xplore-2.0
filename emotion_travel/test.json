@@ -1,0 +1,714 @@
+{
+    "calm_relaxed": {
+        "intro_message": "You seem to be in a relaxed mood. Here are some peaceful travel ideas across Kerala to help you unwind. Choose a category below to find a spot that suits your vibe.",
+        "categories": [
+            {
+                "name": "Nature Retreats",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Kariyathumpara",
+                        "description": "Kariyathumpara is a scenic hilltop located in the Kozhikode district of Kerala. It is known for its serene environment and beautiful natural surroundings, offering a peaceful escape from the hustle and bustle of city life. The area is characterized by lush greenery, rolling hills, and expansive views of the surrounding landscapes, making it a popular destination for nature lovers, trekkers, and photographers.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kozhippara Waterfalls",
+                        "description": "Kozhippara Waterfalls is a beautiful and serene waterfall located in the Kozhikode district of Kerala, India. Nestled amidst dense greenery, the falls is a popular tourist destination for nature lovers and adventure enthusiasts. The waterfall is known for its refreshing and cool waters, cascading down from a height into a crystal-clear pool below, surrounded by lush forests and hills.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kakkadampoyil",
+                        "description": "Kakkadampoyil is a picturesque village located in the Kozhikode district of Kerala, known for its scenic beauty and tranquil atmosphere. Situated in the Western Ghats, this place is famous for its lush green landscapes, rolling hills, and dense forests. It is an ideal destination for nature lovers and those seeking a peaceful retreat away from the hustle and bustle of urban life.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Aripara Waterfalls",
+                        "description": "Arippara Waterfalls is a stunning natural attraction located in the Kozhikode district of Kerala, India. The waterfall is nestled amidst lush greenery and is known for its picturesque beauty, making it a popular spot for nature lovers and adventure seekers. The waterfall cascades down from a considerable height, creating a serene and peaceful atmosphere, perfect for a relaxing visit.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Beach Getaways",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Kozhikode Beach",
+                        "description": "Kozhikode Beach, located in the heart of Kozhikode city in Kerala, is a popular and scenic destination known for its relaxed atmosphere and beautiful views of the Arabian Sea. The beach is ideal for leisurely walks along the shoreline, watching the sunset, or simply enjoying the cool sea breeze. It is also famous for its historical significance, as it was once a bustling trade port.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kappad Beach",
+                        "description": "Kappad Beach, located around 16 kilometers north of Kozhikode city in Kerala, is a historically significant and scenic destination. This beach is famous for being the landing site of the Portuguese explorer Vasco da Gama in 1498, marking the beginning of the European colonial influence in India.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "chaliyam Beach",
+                        "description": "Chaliyam Beach is a serene and less crowded coastal destination located in the Kozhikode district of Kerala, India. Known for its natural beauty, the beach offers a peaceful atmosphere, making it ideal for relaxation",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Payyoli Beach",
+                        "description": "Payyoli Beach is a beautiful and relatively quiet beach located in the Kozhikode district of Kerala, India. Known for its golden sands and clear blue waters, it offers a peaceful escape from the more crowded beaches of Kerala",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Scenic Hill Stations",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Ponkunnu Hill Station",
+                        "description": "Ponkunnu Hill Station is located in the Kozhikode district of Kerala, India, and is known for its serene beauty and panoramic views.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Palazhi Mountain View Point",
+                        "description": "Palazhi Mountain View Point is a scenic spot located in the Kozhikode district of Kerala, offering breathtaking views of the surrounding landscapes",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Vazhayur hills",
+                        "description": "Vazhayur Hills is a scenic hill station known for its lush greenery, tea plantations, and breathtaking views of surrounding valleys and mountains. ",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Vayalada View Point",
+                        "description": "Vayalada Viewpoint in Kozhikode offers stunning hilltop views of the Western Ghats and surrounding valleys, making it a perfect spot for nature lovers.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Wildlife and Bird Watching",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Kadalundi Bird Sanctuary",
+                        "description": "Ideal for bird enthusiasts, with a wide variety of species to observe.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Mangrove Forests",
+                        "description": "Mangrove forests are unique coastal ecosystems characterized by salt-tolerant trees and plants that thrive in brackish water.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Malabar Wildlife Sanctuary",
+                        "description": "This wildlife sanctuary, nestled in the Western Ghats, is a haven for diverse flora and fauna.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Vanaparvam Biodiversity Park",
+                        "description":"This biodiversity park is dedicated to preserving the region's rich flora and fauna.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Spiritual and Heritage Spots",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": " Calicut Heritage Forum",
+                        "description": "Known for its peaceful environment and rich history.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Pazhassi Raja Archaeological Museum",
+                        "description": "Serene atmosphere with cultural significance.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Deepanjali Lamp Museum",
+                        "description": "A mix of historic sites, colonial architecture, and peaceful streets ideal for relaxed exploration",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Freedom Squre Kozhikode",
+                        "description": "A quiet and beautiful site for historical reflection.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            }
+        ]
+    },
+    "excited_adventurous": {
+        "intro_message": "You're in an adventurous mood! Here are some thrilling travel spots in Kerala to get your adrenaline pumping. Choose a category below to find your next adventure!",
+        "categories": [
+            {
+                "name": "Trekking and Hiking",
+                "image": "https://www.responsiblevacation.com/imagesclient/8827_3460.jpg",
+                "options": [
+                    {
+                        "name": "Kakkayam Trek",
+                        "description":"The Kakkayam Trek is a popular trekking route located in the hills of Kerala, known for its scenic beauty and serene landscapes",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Chembra Peak Trek",
+                        "description": "Chembra Peak is a prominent mountain known for its stunning panoramic views and a scenic trek.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Thusharagiri Waterfall Trek",
+                        "description": "The Thusharagiri Waterfalls Trek is an exciting adventure through dense forests and rugged terrain, leading to the breathtaking Thusharagiri Waterfalls.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Maripuzha Jungle Trail",
+                        "description": "A 4-mile forest loop, perfect for nature lovers, with peaceful views and nearby places to stay.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Waterfalls and Rapids",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Thusharagiri Waterfalls",
+                        "description": "The Thusharagiri Waterfalls is an exciting adventure through dense forests and rugged terrain, leading to the breathtaking Thusharagiri Waterfalls.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "vayalada waterfalls",
+                        "description": "Vayalada Waterfalls is a peaceful spot surrounded by greenery, ideal for relaxing and enjoying nature.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Urakkuzhi Warterfalls",
+                        "description": "Urakkuzhi Waterfalls is a beautiful natural spot known for its scenic beauty.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kozhippara Waterfalls",
+                        "description": "This waterfall, nestled in a dense forest, offers a tranquil escape with its lush surroundings.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Wildlife and Jungle Exploration",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Malabar Wildlife Sanctuary",
+                        "description": "Known for its jungle treks and wildlife boat rides.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Parambikulam Tiger Reserve",
+                        "description": "Great for those looking to experience Kerala's dense forests and wildlife.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Chinnar Wildlife Sanctuary",
+                        "description": "Known for its diverse flora and fauna, including elephants and the endangered Grizzled Giant Squirrel.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Wayanad Wildlife Sanctuary",
+                        "description": "Spot a variety of animals in this lush sanctuary, offering both tranquility and adventure.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Adventure Sports",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Paddle monks Adventures",
+                        "description": "Paddle through serene backwaters and enjoy the thrill of kayaking.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                
+                
+                    
+                    {
+                        "name": "Eroth Water Adventure Sports",
+                        "description": ".Challenge yourself with thrilling rock-climbing experiences.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Club Riveka Kayaking",
+                        "description": "immersive experiences that connect you with nature through riverfront stays and thrilling kayaking adventures on the Chaliyar River. .",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            }
+        ]
+    },
+    "happy": {
+        "intro_message": "You seem to be in high spirits! Here are some cheerful travel suggestions across Kerala that align with your joyful  mood. Select a category below to explore!",
+        "categories": [
+            {
+                "name": "Cultural Experiences",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Tali Urban Heritage Core",
+                        "description": "Witness the vibrant and traditional dance-drama of Kerala.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Freedom Squre Kozhikode",
+                        "description": "Experience the energy of traditional boat races during Onam season.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Planetarium",
+                        "description": "Join one of Kerala's grandest festivals with vibrant colors and processions.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Sargaalaya Kerala arts & Craft Village",
+                        "description": "Enjoy an exciting display of Kerala's traditional martial arts.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Family-Friendly Spots",
+                "image": "image.png",
+                "options": [
+                    {
+                        "name": "Kozhikode Beach",
+                        "description": "A fun-filled destination for families with rides and water attractions.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Mananchira Square",
+                        "description": "Perfect for a relaxed evening stroll with scenic waterfront views.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Snow Fantasy calicut",
+                        "description": "A great educational experience for kids and families.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kariyathumpara",
+                        "description": "Explore Kerala's art and history in this family-friendly museum.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Beach Escapes",
+                "image": "images/beach.png",
+                "options": [
+                    {
+                        "name": "Beypore Beach",
+                        "description": "Known for its golden sand, vibrant sunsets, and relaxed vibe.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kappad Beach",
+                        "description": "A unique cliff-side beach with shops and cafes overlooking the sea.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "paarapally Beach",
+                        "description": "Famous for the Bekal Fort and its tranquil environment.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "chaliyam Beach",
+                        "description": "A pristine beach perfect for unwinding and soaking up the sun.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Shopping and Markets",
+                "image": "images/shopping.png",
+                "options": [
+                    {
+                        "name": "SM street",
+                        "description": "Discover antiques, spices, and unique souvenirs in a historic setting.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Gokulam Galleria",
+                        "description": "A bustling market with a mix of traditional and modern shopping options.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Lulu Mall Kozhikode",
+                        "description": "One of India's largest malls with shopping, dining, and entertainment.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Valiyangadi Market",
+                        "description": "Explore this vibrant market for spices, textiles, and fresh produce.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Festivals and Celebrations",
+                "image": "images/festival.png",
+                "options": [
+                    {
+                        "name": "Onam Celebrations",
+                        "description": "Experience the spirit of Kerala's harvest festival with floral carpets and feasts.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Vishu Festival",
+                        "description": "Enjoy the traditional New Year festival marked by lights and traditional meals.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Beach Festival Ground",
+                        "description": "A vibrant ritualistic art form celebrated in temples.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kerala Literature festival",
+                        "description": "A thrilling boat race event held on the Punnamada Lake in Alappuzha.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            }
+        ]
+    },
+    "sad": {
+        "intro_message": "Feeling a little low? How about visiting some calming and uplifting spots in Kerala to lift your spirits? Choose a  category that resonates with you.",
+        "categories": [
+            {
+                "name": "Feeling low",
+                "image": "images/quiet_nature.png",
+                "options": [
+                    {
+                        "name": "Kakkadampoyil",
+                        "description": "Find solace in pristine nature with quiet and untouched forests.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name":"Thusharagiri Waterfall Trek",
+                        "description": "Feel rejuvenated amidst the serene greenery of Vagamon.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kadalundi Bird Sanctuary",
+                        "description": "Relax with golden beaches and peaceful backwaters.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Konad beach",
+                        "description": "Perfect for a quiet escape with scenic canal rides.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Scenic beach",
+                "image": "images/scenic_beach.png",
+                "options": [
+                    {
+                        "name": "kappad Beach",
+                        "description": "Relaxed vibe with few crowds, perfect for calm reflection.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Payyoli Beach",
+                        "description": "A peaceful, less-crowded beach, ideal for introspection.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Chaliyam Beach",
+                        "description": "Known for its fort, scenic views, and serene atmosphere.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Konad Beach",
+                        "description": "A historically significant and tranquil beach near Kozhikode.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Spiritual and Uplifting Places",
+                "image": "images/spiritual.png",
+                "options": [
+                    {
+                        "name": "Tali Temple",
+                        "description": "Known for its peaceful ambiance and spiritual significance.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name":"Mishkal Mosque",
+                        "description": "A serene temple offering calm and cultural richness.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "St. Mary's Church Kozhokode",
+                        "description": "A historic church offering a reflective and tranquil space.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Thiruvannur Siva Temple",
+                        "description": "A historic site with a calm and quiet ambiance.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Calm Waterways",
+                "image": "images/waterfall.png",
+                "options": [
+                    {
+                        "name": "Akalapuzha River",
+                        "description": "Enjoy relaxing houseboat rides through tranquil backwaters.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Iruvanjippuzha River",
+                        "description": "India’s longest lake, perfect for peaceful boat rides.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kallayi River",
+                        "description": "A serene lake known for its picturesque backwaters.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Chaliyar River",
+                        "description": "Ideal for quiet and scenic moments, also the site of the Nehru Trophy Boat Race.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Relaxing Hill Stations",
+                "image": "image/hill.png",
+                "options": [
+                    {
+                        "name": "Kakkadampoyil",
+                        "description": "Rolling tea gardens and serene landscapes, perfect for a peaceful escape.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Ponkunnu Hill Station",
+                        "description": "A small hill station with scenic views and quiet hiking trails.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Peringottukunnu Kadalundi",
+                        "description": "Known for its forest trails, waterfalls, and serene viewpoints.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Vayalada View Point",
+                        "description": "A quaint hill station known for its peaceful tea plantations.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            }
+        ]
+    },
+    "neutral": {
+        "intro_message": "Looking for something interesting to do? Here are some balanced travel ideas across Kerala for you to enjoy a change of pace.",
+        "categories": [
+            {
+                "name": "Classic Tourist Spots",
+                "image": "https://static.toiimg.com/photo/msid-58490225,width-96,height-65.cms",
+                "options": [
+                    {
+                        "name": "Kozhikode Beach",
+                        "description": "The beach is renowned for its tranquil charm, with breathtaking sunset views that paint the sky in vivid shades of orange and pink. Gentle waves and a refreshing sea breeze create a peaceful ambiance, making it a favorite spot for leisurely walks, picnics, and unwinding from the city's bustle.",
+                        "image": "https://images.unsplash.com/photo-1654673285799-272434e0ef00?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "location": "https://maps.app.goo.gl/Y1GCSfFvhprRu2Gp7"
+                    },
+                    {
+                        "name": "Kappad Beach",
+                        "description": "The beach wher Vasco Da Gama landed in 1498, making the begining of the spice trade in kerala.jIt is less crowded and perfect for a relaxing day by th sea.",
+                        "image": "https://www.dtpckozhikode.com/uploads/picture_gallery/gallery_images/kappad-beach-park-kozhikodu-20230602163015499265.webp",
+                        "location": "https://maps.app.goo.gl/tNAbev3xyydestqU6"
+                    },
+                    {
+                        "name": "Mananchira Square",
+                        "description": "A historic square in the heart of kozhikode city, with a large pond and surounding gardens.It is perfect for a peaceful walk or a picnic.",
+                        "image": "https://www.dtpckozhikode.com/uploads/picture_gallery/gallery_images/mananchira-20230509170414337277.webp",
+                        "location": "https://maps.app.goo.gl/XTXCBcb1bCvWrppz6"
+                    },
+                    {
+                        "name": "Thusharagiri Waterfalls",
+                        "description": "A beautiful waterfall located around 50km from kozhikode, offering scenic beauty and trekking opportunities.It's a popular spot for nature lovers and adventure seekers.",
+                        "image": "https://www.keralatourism.org/images/enchanting_kerala/large/thusharagiri20230608031615_1307_1.jpg",
+                        "location": "https://maps.app.goo.gl/NwqHkaSzVxSS8wrL7"
+                    }
+                ]
+            },
+            {
+                "name": "Cultural Heritage and History",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
+                "options": [
+                    {
+                        "name": "Pazhassi Raja Archaeological Museum",
+                        "description": "Is dedicated to preserving the region's rich historical and cultural heritage.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Kuttichira Heritage Conservation Project",
+                        "description": "The Kuttichira Heritage Conservation Project is an initiative aimed at preserving the historical and cultural heritage of the Kuttichira area in Kozhikode.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Tali Urban Heritage Core",
+                        "description": "The Tali Urban Heritage Core is a cultural and historical precinct located in the heart of Kozhikode.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": " Calicut Heritage Forum",
+                        "description": "An old palace with beautiful murals and history.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Scenic Nature Spots",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_T1yN31rnlAUsD14XQP2Win7rbm2ecwykOw&s",
+                "options": [
+                    {
+                        "name": "Mangrove Forests",
+                        "description": "Mangrove forests are coastal ecosystems that are found in tropical and subtropical regions, characterized by salt-tolerant trees and shrubs.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Mavoor wetlands",
+                        "description": "Mavoor Wetlands are a tranquil expanse of marshy lands that offer a peaceful retreat for nature enthusiasts.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Sarovaram Biopark",
+                        "description": "is an eco-tourism destination dedicated to the conservation of wetlands and mangrove ecosystems.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Mananchira Square",
+                        "description": "Is a beautiful park built around the historic Mananchira Tank, a rectangular freshwater pond that dates back to the 14th century.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            },
+            {
+                "name": "Beaches and Coastal Areas",
+                "image": "https://static.toiimg.com/thumb/48538866.cms?resizemode=75&width=1200&height=900",
+                "options": [
+                    {
+                        "name": "Kozhikode Beach",
+                        "description": "A blend of backwaters and beach, great for relaxation.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Chaliyam Beach",
+                        "description": "A scenic, lesser-known beach with beautiful views.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Payyoli Beach",
+                        "description": "Is a tranquil destination known for its golden sands, shallow waters, and lush palm trees.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    },
+                    {
+                        "name": "Konad Beach",
+                        "description": " Is a serene and lesser-known destination that offers a peaceful retreat away from the more crowded tourist spots.",
+                        "image": "images/chembra_peak.jpg",
+                        "location": " "
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,4 +1,5 @@
 import json
+import requests
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from deepface import DeepFace
@@ -9,6 +10,8 @@ from django.contrib import messages
 from django.urls import reverse
 from urllib.parse import quote
 
+API_KEY = "f2d2025b23244d73bdb142145251703"
+BASE_URL = "http://api.weatherapi.com/v1/current.json"
 
 @csrf_exempt
 def home(request):
@@ -20,11 +23,12 @@ def home(request):
                 return JsonResponse({"error": "No image data received"}, status=400)
 
             # Analyze the image using DeepFace's emotion detector
-            # analysis = DeepFace.analyze(image_data, actions=["emotion"])
+            analysis = DeepFace.analyze(image_data, actions=["emotion"])
+            print(analysis)
 
             # Extract the detected emotion with the highest probability
-            # detected_emotion = analysis[0]["dominant_emotion"]
-            detected_emotion = "neutral"
+            detected_emotion = analysis[0]["dominant_emotion"]
+            # detected_emotion = "neutral"
             with open("./emotion_mapping.json", "r") as f:
                 data = f.read()
                 parsed_data = json.loads(data)
@@ -41,6 +45,12 @@ def home(request):
 
         except json.JSONDecodeError:
             return JsonResponse({"error": "Invalid JSON format"}, status=400)
+        except ValueError:
+            return render(
+                request,
+                "core/Homepage.html",
+                context={"error_message": "Face not detected! Align your face properly."},
+            )
     else:
         return render(request, "core/Homepage.html")
 
@@ -67,28 +77,49 @@ def landing(request):
     
     if category_data: 
         for option in category_data.get("options" , [] ):        
+            name = option.get("name")
             places.append({
-                "name" : option.get("name"),
+                "name" : name ,
                 "desc" : option.get("description"),
                 "image" : option.get("image"),
                 "loc" : option.get("location")
+                # "weather" : get_weather("kozhikode")
             })
-    print(f"Places: {places}")
+    # print(f"Places: {places}")
         
     return render(request, "core/Landing_page.html" , {"places" : places})
+
+def get_weather(city) :
+    params = {
+        "key": API_KEY, 
+        "q": city
+    }
+    
+    response = requests.get(BASE_URL, params=params)
+    if response.status_code == 200:
+        data = response.json()
+        location = data["location"]["name"]
+        temperature = data["current"]["temp_c"]
+        condition = data["current"]["condition"]["text"]
+        print(f"Weather in {location}: {temperature}°C, {condition}")
+
+
+#e-mail setup
 
 def contact(request):
     if request.method == "POST":
         name = request.POST.get("name")
         email = request.POST.get("email")
-        message = request.POST.get("subject")
+        message = request.POST.get("suggestion")
+
+        email_body = f"Sender Email: {email}\n\n{message}"
 
         try:
             send_mail(
-                f"Contact Form Submission from {name}",
-                message,
-                email,  # sender email
-                ["adhunash@gmail.com"],  # Reciever email
+                subject=f"Contact Form Submission from {name}",
+                message=email_body,
+                from_email="adhunash@gmail.com",  # Your sender email
+                recipient_list=["adhunash@gmail.com"],  # Receiver email
                 fail_silently=False,
             )
             messages.success(request, "Your message has been sent successfully!")
@@ -98,87 +129,4 @@ def contact(request):
         return redirect("contact")
 
     return render(request, "core/contact.html")
-
-# def suggest(request):
-#     emotion = request.GET.get("emotion") #emotion from the previous page
-#     print(f"emotion recieved : {emotion}")
-#     with open("./emotion_mapping.json" , "r") as f :
-#         data = f.read()
-#         emotion_data = json.loads(data)
-        
-#     #extract relevant data
-#     selected_data =  emotion_data.get(emotion , {})
-#     categories = selected_data.get("categories" , [])
-#     # print(selected_data)
-#     # print(categories)
-    
-#     #link for next page
-#     link = f"{reverse('more_details')}"
-    
-#     #flatten data to send only lat, lng, name, and a link
-#     places = []
-    
-#     for category in categories : 
-#         for option in category.get("options" , [] ):
-#             #get lat and lng
-#             lat = option.get("lat")
-#             lng = option.get("lng")
-            
-#             if not lat or not lng:
-#                 print(f"Warning: Missing coordinates for {option.get('name')}. lat: {lat}, lng: {lng}")
-#                 continue  # Skip this place if coordinates are missing
-
-#             try:
-#                 # Convert lat and lng to float
-#                 lat = float(lat)
-#                 lng = float(lng)
-#             except ValueError:
-#                 # If conversion fails, log an error and skip this place
-#                 print(f"Error: Invalid coordinates for {option.get('name')}. lat: {lat}, lng: {lng}")
-#                 continue
-             
-#             places.append({
-#                 "name" : option.get("name"), 
-#                 "lat" : float(lat),
-#                 "lng" : float(lng),
-#                 "link": f"{link}?emotion={emotion}&place={quote(option.get('name'))}" #append the query param for each place
-#             })
-#     print(f"Places: {places}")
-#     place_json = json.dumps(places)
-            
-#     return render(request, "core/suggest_place.html" , {"places" : place_json})
-
-
-# def details(request):
-#     emotion = request.GET.get("emotion") #emotion from the previous page
-#     print(f"emotion recieved : {emotion}")
-#     with open("./emotion_mapping.json" , "r") as f :
-#         data = f.read()
-#         emotion_data = json.loads(data)
-        
-#     #extract relevant data
-#     selected_data =  emotion_data.get(emotion , {})
-#     categories = selected_data.get("categories" , [])
-#     # print(selected_data)
-#     # print(categories)
-    
-#     #flatten data to send details about the places
-#     place_name = request.GET.get("place")
-    
-#     for category in categories : 
-#         for option in category.get("options" , [] ):
-#             if option.get("name") == place_name:
-#                 print(f"Match found: {option.get('name')}") 
-#                 return render(
-#                     request,
-#                     "core/place.html",
-#                     context= {
-#                         "name" : option.get("name"),
-#                         "description" : option.get("description"),
-#                         "attraction" : option.get("attraction"),
-#                         "images" : option.get("images"),
-#                         "backgroundImage" : option.get("background-img")
-#                     }
-#                 )
-    
 

@@ -27,7 +27,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#pick">Choose</a></li>
-                    <li><a href="#about">About us</a></li>
+                    {% comment %} <li><a href="#about">About us</a></li> {% endcomment %}
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -52,7 +52,7 @@
                             style="font-size: 65px; color: rgb(255, 255, 255)"
                         >
                             {% if emotion %} {{ emotion }} {% else %}
-                            Detecting... {% endif %}
+                            Detecting<span id="loader-dots"></span>{% endif %}
                         </span>
                     </p>
                 </div>

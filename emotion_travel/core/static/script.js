@@ -1,5 +1,3 @@
-//for better performance in front page , no important scripts
-
 // Smooth scrolling function
 document.querySelectorAll('a[href^="#pick"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
@@ -74,7 +72,8 @@ document.getElementById("start-webcam-button").addEventListener("click", () => {
     document.getElementById("cam-div").style = "display : block;";
     // document.getElementById("normal-div").style = "display : none;";
     document.getElementById("start-webcam-button").style = "display : none ;";
-    document.getElementById("capture-webcam-button").style ="display : block ;";
+    document.getElementById("capture-webcam-button").style =
+        "display : block ;";
 
     startWebcam();
 });
@@ -97,7 +96,6 @@ document
         document.getElementById("imageData").value = imageData;
     });
 
-
 // contact us setup
 
 const modal = document.getElementById("modal");
@@ -117,3 +115,11 @@ window.onclick = (event) => {
         modal.style.display = "none";
     }
 };
+
+let detectLoaderDots = 1;
+
+setInterval(() => {
+    let detectNode = document.getElementById("loader-dots");
+    detectNode.innerText = ".".repeat(detectLoaderDots);
+    detectLoaderDots = (detectLoaderDots + 1) % 4;
+}, 1000);

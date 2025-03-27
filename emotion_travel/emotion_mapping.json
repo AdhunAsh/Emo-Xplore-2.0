@@ -4,7 +4,7 @@
         "categories": [
             {
                 "name": "Nature Retreats",
-                "image": "image.png",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_T1yN31rnlAUsD14XQP2Win7rbm2ecwykOw&s",
                 "options": [
                     {
                         "name": "Kariyathumpara",
@@ -34,7 +34,7 @@
             },
             {
                 "name": "Beach Getaways",
-                "image": "image.png",
+                "image": "https://static.toiimg.com/thumb/48538866.cms?resizemode=75&width=1200&height=900",
                 "options": [
                     {
                         "name": "Kozhikode Beach",
@@ -64,7 +64,7 @@
             },
             {
                 "name": "Scenic Hill Stations",
-                "image": "image.png",
+                "image": "https://flycnn.com/wp-content/uploads/2024/05/vayalada_kozhikode-1024x576.webp",
                 "options": [
                     {
                         "name": "Ponkunnu Hill Station",
@@ -94,7 +94,7 @@
             },
             {
                 "name": "Wildlife and Bird Watching",
-                "image": "image.png",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsXOC23sDJqhyBidJztPh8lZgxrT-Og3Xbsg&s",
                 "options": [
                     {
                         "name": "Kadalundi Bird Sanctuary",
@@ -124,7 +124,7 @@
             },
             {
                 "name": "Spiritual and Heritage Spots",
-                "image": "image.png",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
                 "options": [
                     {
                         "name": "Freedom Squre Kozhikode",
@@ -189,7 +189,7 @@
             },
             {
                 "name": "Waterfalls and Rapids",
-                "image": "image.png",
+                "image": "https://www.dtpcmalappuram.com/uploads/picture_gallery/gallery_images/kozhippara-waterfall-malappuram-17-20230403141731876117.webp",
                 "options": [
                     {
                         "name": "Thusharagiri Waterfalls",
@@ -219,7 +219,7 @@
             },
             {
                 "name": "Wildlife and Jungle Exploration",
-                "image": "image.png",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn54zK4Jmk29bfv6-LTHRWdfL-KJCb0f934w&s",
                 "options": [
                     {
                         "name": " Kadalundi Mangrove Forests",
@@ -249,7 +249,7 @@
             },
             {
                 "name": "Adventure Sports",
-                "image": "image.png",
+                "image": "https://imgcld.yatra.com/ytimages/image/upload/v1530881452/AdvNation/ANN_TRP727/11-min_BcIbrk.jpg",
                 "options": [
                     {
                         "name": "Iruvanjippuzha River Rafting",
@@ -284,7 +284,7 @@
         "categories": [
             {
                 "name": "Cultural Experiences",
-                "image": "image.png",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
                 "options": [
                     {
                         "name": "Tali Urban Heritage Core",
@@ -314,7 +314,7 @@
             },
             {
                 "name": "Family-Friendly Spots",
-                "image": "image.png",
+                "image": "https://www.justahotels.com/wp-content/uploads/2023/10/Family-Holiday-Destinations-in-India.jpg",
                 "options": [
                     {
                         "name": "Kozhikode Beach",
@@ -344,7 +344,7 @@
             },
             {
                 "name": "Beach Escapes",
-                "image": "images/beach.png",
+                "image": "https://static.toiimg.com/thumb/48538866.cms?resizemode=75&width=1200&height=900",
                 "options": [
                     {
                         "name": "Beypore Beach",
@@ -374,37 +374,37 @@
             },
             {
                 "name": "Shopping and Markets",
-                "image": "images/shopping.png",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvd3CsWPoPsOvZG-w79nMBxcxe1IH96Gu1A&s",
                 "options": [
                     {
                         "name": "SM street",
                         "description": "Discover antiques, spices, and unique souvenirs in a historic setting.",
-                        "image": "images/chembra_peak.jpg",
+                        "image": "https://i.ytimg.com/vi/tsofWBOh5aA/maxresdefault.jpgimages/chembra_peak.jpg",
                         "location": " "
                     },
                     {
                         "name": "Gokulam Galleria",
                         "description": "A bustling market with a mix of traditional and modern shopping options.",
-                        "image": "images/chembra_peak.jpg",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBeavN6OsHwYffqcdhSo9apOaaVwQrpEg2w&s",
                         "location": " "
                     },
                     {
                         "name": "Lulu Mall Kozhikode",
                         "description": "One of India's largest malls with shopping, dining, and entertainment.",
-                        "image": "images/chembra_peak.jpg",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1agcnb--LZQllZWnB1T1zCirheyCVsTYDtA&s",
                         "location": " "
                     },
                     {
-                        "name": "Valiyangadi Market",
+                        "name": "Hi-Lite Mall",
                         "description": "Explore this vibrant market for spices, textiles, and fresh produce.",
-                        "image": "images/chembra_peak.jpg",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVF_-MAl19ufS7uz41m7zpP6kXlpg0Z5hhA&s",
                         "location": " "
                     }
                 ]
             },
             {
                 "name": "Festivals and Celebrations",
-                "image": "images/festival.png",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
                 "options": [
                     {
                         "name": "Onam Celebrations",
@@ -438,8 +438,8 @@
         "intro_message": "Feeling a little low? How about visiting some calming and uplifting spots in Kerala to lift your spirits? Choose a  category that resonates with you.",
         "categories": [
             {
-                "name": "Feeling low",
-                "image": "images/quiet_nature.png",
+                "name": "Nature Retreats",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_T1yN31rnlAUsD14XQP2Win7rbm2ecwykOw&s",
                 "options": [
                     {
                         "name": "Kakkadampoyil",
@@ -469,7 +469,7 @@
             },
             {
                 "name": "Scenic beach",
-                "image": "images/scenic_beach.png",
+                "image": "https://static.toiimg.com/thumb/48538866.cms?resizemode=75&width=1200&height=900",
                 "options": [
                     {
                         "name": "Kappad Beach",
@@ -499,7 +499,7 @@
             },
             {
                 "name": "Spiritual and Uplifting Places",
-                "image": "images/spiritual.png",
+                "image": "https://www.savaari.com/blog/wp-content/uploads/2024/03/elephants-in-thrissur-pooram.webp",
                 "options": [
                     {
                         "name": "Tali Urban Heritage Core",
@@ -529,7 +529,7 @@
             },
             {
                 "name": "Calm Waterways",
-                "image": "images/waterfall.png",
+                "image": "https://cdn.malabarnews.com/wp-content/uploads/2021/04/29182137/iruvazhinjipuzha-tourism-project.jpg",
                 "options": [
                     {
                         "name": "Akalapuzha River",
@@ -559,7 +559,7 @@
             },
             {
                 "name": "Relaxing Hill Stations",
-                "image": "image/hill.png",
+                "image": "https://flycnn.com/wp-content/uploads/2024/05/vayalada_kozhikode-1024x576.webp",
                 "options": [
                     {
                         "name": "Kakkadampoyil",
